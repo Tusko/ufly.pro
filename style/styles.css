@@ -1,0 +1,479 @@
+/* Usage
+@include declare-font-face('FontName', 'font-filename', 400);
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@include svg-font-face('FontName', 'font-filename', 400);
+}
+*/
+/* line 4, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+/* line 5, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+audio, canvas, video, progress {
+  vertical-align: baseline;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/* line 6, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+audio:not([controls]), [hidden], template {
+  display: none;
+  height: 0; }
+
+/* line 7, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+mark {
+  background: none; }
+
+/* line 8, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+sub, sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline; }
+
+/* line 9, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+sup {
+  top: -.5em; }
+
+/* line 10, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+sub {
+  bottom: -.25em; }
+
+/* line 11, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+pre {
+  overflow: auto; }
+
+/* line 12, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 13, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+html, body {
+  height: 100%;
+  margin: 0; }
+
+/* line 14, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
+  /* line 15, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+  html > body {
+    height: auto;
+    min-height: 100%; }
+
+/* line 21, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+a {
+  color: #3399ff;
+  text-decoration: none;
+  outline: 0 none; }
+  /* line 25, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+  a:hover {
+    outline: 0 none; }
+  /* line 26, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+  a > img {
+    border: 0; }
+
+/* line 43, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+input[type='text'], input[type='email'], input[type='password'], input[type='color'], input[type='url'], input[type='image'], input[type='tel'], input[type='submit'], input[type='file'], input[type='range'], input[type='reset'], input[type='button'], input[type='search'], button, textarea, select {
+  -webkit-appearance: none;
+  outline: 0 none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 48, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 49, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; }
+
+/* line 50, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+p {
+  padding-bottom: 28px; }
+
+/* line 51, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+ul, ol {
+  list-style: none; }
+
+/* line 52, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+#wrap {
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  overflow: hidden; }
+
+/* line 60, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.clear {
+  clear: both; }
+
+/* line 61, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.cfx:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+/* line 62, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+html[xmlns] .cfx {
+  display: block; }
+
+/* line 63, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+* html .cfx {
+  height: 1%; }
+
+/* line 66, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+::-moz-selection {
+  color: #fff;
+  background: #3399ff; }
+
+/* line 67, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+::selection {
+  color: #fff;
+  background: #3399ff; }
+
+/* line 68, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+::-moz-focus-inner {
+  border: 0; }
+
+/* line 74, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.valign {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 98%; }
+
+/* line 75, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.vfix {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0; }
+
+/* line 78, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.valign2 {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+/* line 81, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.alignleft {
+  float: left; }
+
+/* line 82, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.alignright {
+  float: right; }
+
+/* line 83, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 84, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+img.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+/* line 86, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.googlemap img {
+  max-width: none; }
+
+/* line 88, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+hr {
+  background: #e1e1e1;
+  height: 1px;
+  border: 0 none;
+  display: block;
+  clear: both;
+  margin: 20px 0; }
+
+/* line 96, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+strong {
+  font-weight: 700; }
+
+/* line 98, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.fullframe {
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+  z-index: 0; }
+  /* line 100, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+  .fullframe > iframe, .fullframe > object, .fullframe > embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1; }
+
+/* line 103, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+input[type="submit"] {
+  cursor: pointer; }
+
+/* line 104, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+textarea, button, a, input {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+/* line 106, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+body {
+  position: relative;
+  font: 300 15px/22px 'NeoSans', 'Arial', sans-serif;
+  color: #323232;
+  background-color: #b4b4b4;
+  background-image: -webkit-linear-gradient(bottom, #fff, #e2e2e2);
+  background-image: -moz-linear-gradient(bottom, #fff, #e2e2e2);
+  background-image: -o-linear-gradient(bottom, #fff, #e2e2e2);
+  background-image: -ms-linear-gradient(bottom, #fff, #e2e2e2);
+  background-image: linear-gradient(to top, #fff, #e2e2e2); }
+
+/* line 117, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.row {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 20px;
+  position: relative;
+  width: 1280px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 126, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 129, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.hidden {
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  width: 0; }
+
+/* line 138, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.wpcf7 .screen-reader-response {
+  display: none !important; }
+/* line 139, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.wpcf7 .wpcf7-not-valid-tip {
+  background: #eee;
+  color: #ff5f5f;
+  font: 400 12px/45px 'NeoSans', 'Arial', sans-serif;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0; }
+/* line 149, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.wpcf7 .wpcf7-response-output {
+  background: #fff;
+  padding: 2%;
+  float: left;
+  width: 96%;
+  display: none;
+  margin: 20px 0;
+  text-align: center;
+  font: 400 12px/20px 'NeoSans', 'Arial', sans-serif; }
+  /* line 158, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+  .wpcf7 .wpcf7-response-output.wpcf7-validation-errors {
+    background: #FF5F5F;
+    color: #fff; }
+  /* line 162, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+  .wpcf7 .wpcf7-response-output.wpcf7-mail-sent-ng {
+    background: #1091ae;
+    color: #fff; }
+  /* line 166, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+  .wpcf7 .wpcf7-response-output.wpcf7-mail-sent-ok {
+    background: #16A085;
+    color: #fff; }
+/* line 171, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.wpcf7 .wpcf7-form-control-wrap {
+  display: block !important;
+  position: relative; }
+/* line 175, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.wpcf7 .ajax-loader {
+  background: #fff;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 -10px 0 10px;
+  padding: 5px;
+  vertical-align: middle; }
+/* line 187, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 input[type="password"], .wpcf7 textarea {
+  margin: 0 auto 17px;
+  width: 100%;
+  border: 0;
+  height: 44px;
+  padding: 0 12px;
+  font: 300 14px 'NeoSans', 'Arial', sans-serif;
+  display: block; }
+/* line 200, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.wpcf7 textarea {
+  resize: none;
+  overflow: auto;
+  height: 100px;
+  padding: 10px;
+  line-height: 20px; }
+
+/* line 209, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  text-align: center; }
+  /* line 216, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+  footer > div {
+    background: #323232;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top; }
+    /* line 221, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+    footer > div a {
+      width: 48px;
+      height: 48px;
+      line-height: 48px;
+      font-size: 22px;
+      color: #fff;
+      float: left; }
+      /* line 228, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+      footer > div a:hover {
+        background: #e74c3c; }
+
+/* line 235, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+#logo {
+  width: 320px; }
+
+/* line 239, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+h1 {
+  padding: 30px 0 30px;
+  font: 600 36px/1 'NeoSans', 'Arial', sans-serif; }
+
+/* line 244, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+h2 {
+  font: 300 20px/36px 'NeoSans', 'Arial', sans-serif; }
+
+/* line 248, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+article {
+  position: absolute;
+  left: -999px;
+  top: -999px;
+  overflow: hidden;
+  height: 0;
+  width: 0; }
+
+/* line 277, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 295, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.icon-vk:before {
+  content: '\e800'; }
+
+/* line 296, D:/syncdata/localhost/ufly.pro/style/styles.scss */
+.icon-insta:before {
+  content: '\e801'; }
+
+@font-face {
+  font-family: 'fontello';
+  src: url('fonts/fontello.eot');
+  src: url('fonts/fontello.eot?#iefix') format('embedded-opentype'), url('fonts/fontello.woff') format('woff'), url('fonts/fontello.ttf') format('truetype'), url('fonts/fontello.svg#fontello') format('svg');
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NeoSans';
+  src: url('fonts/NeoSansW1G-Light.eot');
+  src: url('fonts/NeoSansW1G-Light.eot?#iefix') format('embedded-opentype'), url('fonts/NeoSansW1G-Light.woff') format('woff'), url('fonts/NeoSansW1G-Light.ttf') format('truetype'), url('fonts/NeoSansW1G-Light.svg#NeoSans') format('svg');
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NeoSans';
+  src: url('fonts/NeoSansW1G-Regular.eot');
+  src: url('fonts/NeoSansW1G-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/NeoSansW1G-Regular.woff') format('woff'), url('fonts/NeoSansW1G-Regular.ttf') format('truetype'), url('fonts/NeoSansW1G-Regular.svg#NeoSans') format('svg');
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NeoSans';
+  src: url('fonts/NeoSansW1G-Medium.eot');
+  src: url('fonts/NeoSansW1G-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/NeoSansW1G-Medium.woff') format('woff'), url('fonts/NeoSansW1G-Medium.ttf') format('truetype'), url('fonts/NeoSansW1G-Medium.svg#NeoSans') format('svg');
+  font-weight: 500;
+  font-style: normal; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('fonts/fontello.svg#fontello') format('svg');
+    font-weight: 400;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'NeoSans';
+    src: url('fonts/NeoSansW1G-Light.svg#NeoSans') format('svg');
+    font-weight: 300;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'NeoSans';
+    src: url('fonts/NeoSansW1G-Regular.svg#NeoSans') format('svg');
+    font-weight: 400;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'NeoSans';
+    src: url('fonts/NeoSansW1G-Medium.svg#NeoSans') format('svg');
+    font-weight: 500;
+    font-style: normal; }
+ }
+
+/*# sourceMappingURL=styles.css.map */
