@@ -1,28 +1,17 @@
 {
-  "name": "responsivewebdesign.io",
-  "version": "1.0.0",
-  "description": "RWD Gulp.js",
-  "main": "index.js",
+  "name": "ufly.pro",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "author": "Tusko Trush",
-  "license": "Personal",
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
   "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-autoprefixer": "^2.2.0",
-    "gulp-changed": "^1.2.1",
-    "gulp-concat": "^2.5.2",
-    "gulp-cssjoin": "^0.1.2",
-    "gulp-gzip": "^1.1.0",
-    "gulp-jshint": "^1.10.0",
-    "gulp-minify-css": "^1.1.1",
-    "gulp-minify-html": "^1.0.2",
-    "gulp-notify": "^2.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-ruby-sass": "^1.0.5",
-    "gulp-strip-debug": "^1.0.2",
-    "gulp-uglify": "^1.2.0",
-    "gulp-util": "^3.0.4"
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.1.5"
   }
 }
